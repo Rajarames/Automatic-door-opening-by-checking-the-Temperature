@@ -1,0 +1,2 @@
+# Automatic-door-opening-by-checking-the-Temperature
+This Arduino code monitors temperature using an MLX90614 sensor and displays readings on an OLED. If the temperature exceeds 99°F, it shows "Danger," activates an LED, and moves a servo to 120°. Below 99°F, it displays the temperature, keeps the LED off, and sets the servo to 20°. An IR sensor detects presence, controlling another LED for alerts.
